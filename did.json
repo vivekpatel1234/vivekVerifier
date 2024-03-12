@@ -1,0 +1,22 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "did:web:vivekpatel1234.github.io:vivekVerifier",
+    "authentication": [],
+    "service": [],
+    "verificationMethod": [
+        {
+            "id": "did:web:vivekpatel1234.github.io:vivekVerifier#key-1",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:web:vivekpatel1234.github.io:vivekVerifier",
+            "publicKeyBase58": "8xhkUmMzCfjViQLsoDpBjGvz8ZcbLz6C7g2vboy652JL"
+        }
+    ],
+    "alsoKnownAs": [],
+    "assertionMethod": [
+        "did:web:vivekpatel1234.github.io:vivekVerifier#key-1"
+    ]
+}
